@@ -19,11 +19,11 @@
   "entrypoints": {
     "main": [
       "com.stygigoth.removed.Removed"
-    ],
-    "client": [
-      "com.stygigoth.removed.RemovedClient"
     ]
   },
+  "mixins": [
+    "removed.mixins.json"
+  ],
   "depends": {
     "fabricloader": ">=0.14.6",
     "fabric": "*",
