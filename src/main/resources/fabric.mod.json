@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "removed",
+  "version": "${version}",
+
+  "name": "Removed BlockItems",
+  "description": "A mod for creative building that adds back blockitems for some blocks",
+  "authors": [
+    "stygigoth"
+  ],
+  "contact": {
+    "homepage": "https://github.com/stygigoth/RemovedBlockItems",
+    "sources": "https://github.com/stygigoth/RemovedBlockItems"
+  },
+
+  "license": "GPLv3",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.stygigoth.removed.Removed"
+    ],
+    "client": [
+      "com.stygigoth.removed.RemovedClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": ">=1.19",
+    "java": ">=17"
+  }
+}
